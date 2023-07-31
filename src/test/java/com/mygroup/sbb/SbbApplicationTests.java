@@ -13,7 +13,7 @@ class SbbApplicationTests {
     private QuestionService questionService;
 
 
-    // 대량 테스트 데이터
+    // 대량의 테스트 데이터 생성
     @Test
     void testJpa() {
         for (int i = 1; i <= 300; i++) {
